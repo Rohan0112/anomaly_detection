@@ -1,0 +1,5 @@
+import joblib
+
+# Save the model
+joblib.dump(model, 'anomaly_detection_model.pkl')
+print("Model saved to 'anomaly_detection_model.pkl'")
